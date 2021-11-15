@@ -86,6 +86,35 @@ time.sleep(3)
 driver.find_element_by_xpath("/html/body/div/div/div/div[2]/form/div[8]/button").send_keys(Keys.ENTER)
 
 
+time.sleep(2)
+driver.find_element_by_xpath("/html/body/div[1]/div/div/div[3]/button").click()
+
+
+#part 4
+
+time.sleep(1)
+driver.find_element_by_xpath("/html/body/header/div/nav/div/div/ul/li[5]/a").click()
+
+
+time.sleep(2)
+driver.find_element_by_xpath("/html/body/div/div/div/div/div[2]/form/div[1]/div/input").send_keys("sab20@gmail.com")
+
+time.sleep(2)
+driver.find_element_by_xpath("/html/body/div/div/div/div/div[2]/form/div[2]/div/input").send_keys("123456@Ss")
+
+time.sleep(2)
+driver.find_element_by_xpath("/html/body/div/div/div/div/div[2]/form/div[3]/div/button").click()
+
+time.sleep(2)
+driver.find_element_by_xpath("/html/body/header/div/nav/div/div/ul/li[5]/a").click()
+
+
+#time.sleep(4)
+#driver.close()
+
+
+
+
 
 
 
